@@ -1,0 +1,108 @@
+{
+  "diabetes": {
+    "name": "Diabetes Prediction",
+    "algorithm": "Ensemble (ExtraTrees + Random Forest + Gradient Boosting)",
+    "accuracy": 0.8733,
+    "precision": 0.8294,
+    "recall": 0.94,
+    "f1_score": 0.8812,
+    "confusion_matrix": [
+      [
+        121,
+        29
+      ],
+      [
+        9,
+        141
+      ]
+    ],
+    "test_samples": 300,
+    "features": [
+      "Pregnancies",
+      "Glucose",
+      "BloodPressure",
+      "SkinThickness",
+      "Insulin",
+      "BMI",
+      "DiabetesPedigreeFunction",
+      "Age"
+    ]
+  },
+  "heart": {
+    "name": "Heart Disease Prediction",
+    "algorithm": "Ensemble (ExtraTrees + Random Forest + Linear SVC)",
+    "accuracy": 0.9,
+    "precision": 0.8929,
+    "recall": 0.8929,
+    "f1_score": 0.8929,
+    "confusion_matrix": [
+      [
+        29,
+        3
+      ],
+      [
+        3,
+        25
+      ]
+    ],
+    "test_samples": 60,
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ]
+  },
+  "parkinson": {
+    "name": "Parkinson's Disease Prediction",
+    "algorithm": "Support Vector Machine (RBF Kernel, C=10, gamma=0.1)",
+    "accuracy": 0.9487,
+    "precision": 0.9655,
+    "recall": 0.9655,
+    "f1_score": 0.9655,
+    "confusion_matrix": [
+      [
+        9,
+        1
+      ],
+      [
+        1,
+        28
+      ]
+    ],
+    "test_samples": 39,
+    "features": [
+      "MDVP:Fo(Hz)",
+      "MDVP:Fhi(Hz)",
+      "MDVP:Flo(Hz)",
+      "MDVP:Jitter(%)",
+      "MDVP:Jitter(Abs)",
+      "MDVP:RAP",
+      "MDVP:PPQ",
+      "Jitter:DDP",
+      "MDVP:Shimmer",
+      "MDVP:Shimmer(dB)",
+      "Shimmer:APQ3",
+      "Shimmer:APQ5",
+      "MDVP:APQ",
+      "Shimmer:DDA",
+      "NHR",
+      "HNR",
+      "RPDE",
+      "DFA",
+      "spread1",
+      "spread2",
+      "D2",
+      "PPE"
+    ]
+  }
+}
